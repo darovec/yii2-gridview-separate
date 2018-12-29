@@ -1,0 +1,26 @@
+{
+    "name": "darovec/yii2-gridview-separate",
+    "description": "Модели для коннекта к Delivery",
+    "type": "yii2-extension",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "darovec",
+            "email": "kulbakov@rozetka.com.ua"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "darovec\\gridviewseparate\\": "src"
+        }
+    },
+    "config": {
+        "process-timeout": 120
+    }
+}
+
